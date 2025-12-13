@@ -1,7 +1,7 @@
 import asyncio
 import uvicorn
-from websocket_server import app           # <-- IMPORTANT
-from simulator import simulator_task        # <-- IMPORTANT
+from websocket_server import app           
+from simulator import simulator_task      
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
